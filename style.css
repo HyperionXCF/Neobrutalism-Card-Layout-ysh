@@ -1,0 +1,263 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+button{
+    background-color:#fdfd96;
+    padding: 10px;
+    margin: 10px;
+    width: 120px;
+    border-radius: 25px;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 6px 6px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.nav{
+    padding-bottom: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+
+
+}
+.super{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.super1{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    background-color: #bafca2;
+    width: fit-content;
+    height: 15px;
+    margin: 30px;
+}
+
+.container{
+    left: 10px;
+    margin: 20px;
+    background-color: #fdfd96;
+    width: 700px;
+    height:700px;
+    border-radius: 25px;
+    border-style: solid;
+    box-shadow: 5px 5px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: #fdfd96;
+    width: 500px;
+    height:500px;
+    border-radius: 25px;
+    border-style: solid;
+    box-shadow: 5px 5px;
+}
+
+
+.container{
+    display: inline block;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    width: 300px;
+    height: 300px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+.heading{
+    padding: 30px;
+    font-size: xx-large;
+    text-decoration: underline;
+
+}
+
+.items2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.F{
+    background-color: #bafca2;
+    padding-bottom: 50px;
+}
+.Q{
+    background-color: aquamarine;
+    padding-bottom: 50px;
+}
+.S{
+    background-color: aliceblue;
+    padding-bottom: 50px;
+}
+.T{
+    background-color: cornflowerblue;
+    padding-bottom: 50px;
+}
+.N{
+    background-color: violet;
+    padding-bottom: 50px;
+}
+.C{
+    background-color: rgb(91, 211, 72);
+    padding-bottom: 50px;
+}
+.R{
+    background-color: darkseagreen;
+    padding-bottom: 50px;
+}
+.H{
+    background-color: coral;
+    padding-bottom: 50px;
+}
+
+.items10{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    padding-left: 85px;
+}
+
+.items2{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    padding-left: 200px;
+}
+.Tag{
+    width:400px;
+    height: fit-content;
+    text-overflow: ellipsis;
+    background-color:gainsboro;
+}
+
+.Tag2{
+    width: 550px;
+    height: 70px;
+    background-color:gainsboro;
+}
+
+.Brief{
+    width: fit-content;
+    height: fit-content;
+    background-color: lightskyblue;
+}
+
+.Tag1{
+    width: 550px;
+    height: 90px;
+    background-color:rgb(125, 229, 225);
+}
+
+.Brief2{
+    width: 550px;
+    height: 200px;
+    background-color: rgb(229, 251, 117);
+
+}
+
+.content2{
+    padding: 50px;
+    width: 500px;
+    height: 300px;
+    background-color:#fdfd96;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+.content3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+.IG{
+    width: 200px;
+    height: fit-content;
+    background-color: rgb(150, 212, 88);
+}
+
+.L{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(237, 114, 73);
+    width: 200px;
+}
+
+.M{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(244, 244, 94);
+    width: 200px;
+}
+
+.J{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(72, 204, 198);
+    width: 200px;
+}
+.Y{
+    width:400px;
+    height: auto;
+    text-overflow:clip;
+    background-color: rgb(160, 220, 20);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button:hover{
+    box-shadow: 4px 4px;
+}
+
+.items{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+    padding-left: 300px;
+}
+
+.content2{
+    display: flex;
+    justify-content: center;
+}
